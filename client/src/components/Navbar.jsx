@@ -10,7 +10,6 @@ function NavBar() {
         Get started <img className='w-3 sm:w-4' src = {assets.arrow_icon} alt=""/>
         </button>
     </div>
-
   )
 }
 

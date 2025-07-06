@@ -8,6 +8,7 @@ const App = () => {
     <div className='min-h-screen bg-slate-50'>
       {/* created 3 routes for 3 pages */}
       <NavBar />                         {/* so as it appears on all pages */}
+      
       <Routes>
         <Route path="/" element={<Home></Home>} /> 
         <Route path="/buy" element={<div>Buy Credit</div>} />
